@@ -20,7 +20,7 @@ function forest_custom_css_mods() {
 	endif;	
 	
 	if ( get_theme_mod('forest_title_font') ) :
-		echo ".title-font, h1, h2, .section-title, .woocommerce ul.products li.product h3 { font-family: ".esc_html( get_theme_mod('forest_title_font','Lato') )."; }";
+		echo ".title-font, h1, h2, .sections-title, .woocommerce ul.products li.product h3 { font-family: ".esc_html( get_theme_mod('forest_title_font','Lato') )."; }";
 	endif;
 	
 	if ( get_theme_mod('forest_body_font') ) :
@@ -54,7 +54,52 @@ function forest_custom_css_mods() {
 		echo "#masthead .custom-logo { transform: scale(".$val."); -webkit-transform: scale(".$val."); -moz-transform: scale(".$val."); -ms-transform: scale(".$val."); }";
 		endif;
 
-	echo "</style>";
+
+
+    // page & post fontsize
+    if(get_theme_mod('forest_content_page_post_fontsize_set')):
+        $pp_size_val = get_theme_mod('forest_content_page_post_fontsize_set');
+        if($pp_size_val=='small'):
+            echo "#primary-mono .entry-content{ font-size:12px;}";
+        elseif ($pp_size_val=='medium'):
+            echo "#primary-mono .entry-content{ font-size:16px;}";
+        elseif ($pp_size_val=='large'):
+            echo "#primary-mono .entry-content{ font-size:18px;}";
+        elseif ($pp_size_val=='extra-large'):
+            echo "#primary-mono .entry-content{ font-size:20px;}";
+        endif;
+    else:
+        echo "#primary-mono .entry-content{ font-size:14px;}";
+    endif;
+
+    //site title font size
+    //var_dump(get_theme_mod('forest_content_site_fontsize_set'));
+    if(get_theme_mod('forest_content_site_title_fontsize_set')):
+        $site_title_size_val=get_theme_mod('forest_content_site_title_fontsize_set');
+        if($site_title_size_val != 'default'):
+            echo "#masthead h1.site-title {font-size:".$site_title_size_val."px !important;}";
+        else:
+            echo "#masthead h1.site-title {font-size:37"."px;}";
+        endif;
+    endif;
+
+    //site desc font size
+    //var_dump(get_theme_mod('forest_content_site_desc_fontsize_set'));
+    if(get_theme_mod('forest_content_site_desc_fontsize_set')):
+        $site_desc_size_val=get_theme_mod('forest_content_site_desc_fontsize_set');
+        if($site_desc_size_val != 'default'):
+            echo "#masthead h2.site-description {font-size:".$site_desc_size_val."px !important;}";
+        else:
+            echo "#masthead h2.site-description {font-size:15"."px;}";
+        endif;
+    endif;
+
+
+
+
+
+
+    echo "</style>";
 }
 
 add_action('wp_head', 'forest_custom_css_mods');

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b13c65ca-25c7-488a-9661-b3e4ad32cbac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/_init.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/_init_blog_layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-calender.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-layout.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/grid-layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cosec.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cot.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-sec.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/404.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/_init_sections.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/comments.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/jumbosearch.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/navigation.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/single.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/social-icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/universal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/skins/default.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/skins/green.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/theme-styles/skins/orange.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/admin_modules/admin_styles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/admin_modules/register_styles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/admin_modules/register_widgets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/admin_modules/theme_setup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_googlefonts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_layouts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_sanitization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/_skins.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/featured-cosec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/featured-cot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/featured-pi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/featured-sec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/misc-scripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/slider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/customizer/social-icons.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/featured-components/featured-lamda.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/featured-components/featured-pi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/layouts/content-calender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/framework/layouts/content-smiley.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/head.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/jumbosearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/masthead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header/top-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/navigation/menu-primary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/navigation/menu-top.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/default.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/green.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/main.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/orange.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/customizer.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/less/admin.less" afterPath="$PROJECT_DIR$/assets/theme-styles/admin-styles/admin.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/less/functions.less" afterPath="$PROJECT_DIR$/assets/theme-styles/functions.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/less/variables.less" afterPath="$PROJECT_DIR$/assets/theme-styles/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/less/woocommerce.less" afterPath="$PROJECT_DIR$/assets/theme-styles/woocommerce.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content-none.php" afterPath="$PROJECT_DIR$/modules/content/content-none.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content-page.php" afterPath="$PROJECT_DIR$/modules/content/content-page.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content-search.php" afterPath="$PROJECT_DIR$/modules/content/content-search.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content-single.php" afterPath="$PROJECT_DIR$/modules/content/content-single.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/content.php" afterPath="$PROJECT_DIR$/modules/content/content.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coverflow-posts.php" afterPath="$PROJECT_DIR$/framework/featured-components/coverflow-posts.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/coverflow-product.php" afterPath="$PROJECT_DIR$/framework/featured-components/coverflow-product.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/featured-posts.php" afterPath="$PROJECT_DIR$/framework/featured-components/featured-posts.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/featured-products.php" afterPath="$PROJECT_DIR$/framework/featured-components/featured-products.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/featured-showcase.php" afterPath="$PROJECT_DIR$/framework/featured-components/featured-showcase.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/social-fa.php" afterPath="$PROJECT_DIR$/modules/social/social-fa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive.php" afterPath="$PROJECT_DIR$/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/theme-functions.php" afterPath="$PROJECT_DIR$/framework/theme-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/css-mods.php" afterPath="$PROJECT_DIR$/inc/css-mods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/external.js" afterPath="$PROJECT_DIR$/js/external.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_googlefonts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/customizer/_googlefonts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1367">
+              <caret line="124" column="33" lean-forward="false" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css-mods.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/css-mods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="77" column="85" lean-forward="true" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>upgrad</find>
+      <find>soca</find>
+      <find>hanne</find>
+      <find>.page404</find>
+      <find>comments</find>
+      <find>footer</find>
+      <find>header</find>
+      <find>pagination</find>
+      <find>showca</find>
+      <find>fonts</find>
+      <find>posts</find>
+      <find>layout</find>
+      <find>lighten(@content,10%)</find>
+      <find>sections</find>
+      <find>nevler_delta</find>
+      <find>delta</find>
+      <find>title</find>
+      <find>nevler</find>
+      <find>cat</find>
+      <find>forest_farea2_enable</find>
+      <find>settings</find>
+      <find>section</find>
+      <find>pointer-eve</find>
+      <find>pointer</find>
+      <find>plum</find>
+      <find>socai;</find>
+      <find>outline</find>
+      <find>trim</find>
+      <find>pulse-sh</find>
+      <find>madhat</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lighten(@content,30%)</replace>
+      <replace>section</replace>
+      <replace>forest_pi</replace>
+      <replace>forest_farea1_enable</replace>
+      <replace>setting</replace>
+      <replace>forest</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/_skins.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/featured-cosec.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/featured-sec.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/misc-scripts.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/slider.php" />
+        <option value="$PROJECT_DIR$/inc/customizer.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cot.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-sec.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cosec.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/grid-layouts.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-layout.less" />
+        <option value="$PROJECT_DIR$/assets/less/main.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/sections/universal.less" />
+        <option value="$PROJECT_DIR$/assets/less/default.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/skins/default.less" />
+        <option value="$PROJECT_DIR$/framework/admin_modules/register_styles.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/_init.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/skins/green.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/skins/orange.less" />
+        <option value="$PROJECT_DIR$/framework/admin_modules/theme_setup.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-border.less" />
+        <option value="$PROJECT_DIR$/framework/customizer/_layouts.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/_init_blog_layouts.less" />
+        <option value="$PROJECT_DIR$/framework/layouts/content-forest.php" />
+        <option value="$PROJECT_DIR$/framework/layouts/content-border.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/_forest-calender.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/_forest-calender.less" />
+        <option value="$PROJECT_DIR$/framework/customizer/featured-cot.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/init.php" />
+        <option value="$PROJECT_DIR$/framework/featured-components/posts-pi.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less" />
+        <option value="$PROJECT_DIR$/framework/customizer/featured-lamda.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/featured-pi.php" />
+        <option value="$PROJECT_DIR$/framework/layouts/content-calender.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-calender.less" />
+        <option value="$PROJECT_DIR$/framework/layouts/content-smiley.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less" />
+        <option value="$PROJECT_DIR$/framework/featured-components/featured-pi.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less" />
+        <option value="$PROJECT_DIR$/framework/featured-components/featured-lamda.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/sections/_init_sections.less" />
+        <option value="$PROJECT_DIR$/modules/header/top-bar.php" />
+        <option value="$PROJECT_DIR$/modules/social/social-fa.php" />
+        <option value="$PROJECT_DIR$/framework/customizer/social-icons.php" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/sections/social-icons.less" />
+        <option value="$PROJECT_DIR$/assets/theme-styles/sections/header.less" />
+        <option value="$PROJECT_DIR$/framework/customizer/_googlefonts.php" />
+        <option value="$PROJECT_DIR$/inc/css-mods.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1375" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\forest\framework\featured-components" />
+      <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\forest\framework\layouts" />
+      <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\forest\assets\theme-styles\skins" />
+      <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\forest\assets\theme-styles" />
+      <recent name="C:\xampp\htdocs\theme-development\wp-content\themes\forest\assets\theme-styles\admin-styles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b13c65ca-25c7-488a-9661-b3e4ad32cbac" name="Default" comment="" />
+      <created>1504155527897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504155527897</updated>
+      <workItem from="1504155529922" duration="26162000" />
+      <workItem from="1504242474743" duration="21969000" />
+      <workItem from="1504589296894" duration="12979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61110000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/header/masthead.php</url>
+          <line>3</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cosec.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#1389#0" expanded="false" />
+            <element signature="e#1430#2993#0" expanded="false" />
+            <element signature="e#3022#3047#0" expanded="false" />
+            <element signature="e#3059#3247#0" expanded="false" />
+            <element signature="e#3260#3963#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/featured-sec.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="178" column="1" lean-forward="false" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+          <folding>
+            <element signature="e#54#964#0" expanded="false" />
+            <element signature="e#1012#1029#0" expanded="false" />
+            <element signature="e#1048#2291#0" expanded="false" />
+            <element signature="e#2324#3662#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/default.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/default.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/admin_modules/admin_styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/_init.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/admin_modules/register_widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/layouts/content-grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/_layouts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/layouts/content-forest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="104" lean-forward="false" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/grid-layouts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#1624#0" expanded="false" />
+            <element signature="e#1641#1969#0" expanded="false" />
+            <element signature="e#1986#2177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/_forest-calender.less" />
+    <entry file="file://$PROJECT_DIR$/framework/layouts/content-calender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/_customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="626" column="6" lean-forward="false" selection-start-line="626" selection-start-column="6" selection-end-line="626" selection-end-column="6" />
+          <folding>
+            <element signature="e#18568#18794#0#PHP" expanded="false" />
+            <element signature="e#18823#19045#0#PHP" expanded="false" />
+            <element signature="e#19052#19183#0#PHP" expanded="false" />
+            <element signature="e#19190#19487#0#PHP" expanded="false" />
+            <element signature="e#19495#19620#0#PHP" expanded="false" />
+            <element signature="e#19627#19901#0#PHP" expanded="false" />
+            <element signature="e#19908#20036#0#PHP" expanded="false" />
+            <element signature="e#20043#20391#0#PHP" expanded="false" />
+            <element signature="e#20412#20741#0#PHP" expanded="false" />
+            <element signature="e#20749#20877#0#PHP" expanded="false" />
+            <element signature="e#20884#21167#0#PHP" expanded="false" />
+            <element signature="e#21174#21314#0#PHP" expanded="false" />
+            <element signature="e#21321#21843#0#PHP" expanded="false" />
+            <element signature="e#21850#21981#0#PHP" expanded="false" />
+            <element signature="e#21988#22348#0#PHP" expanded="false" />
+            <element signature="e#22374#22607#0#PHP" expanded="false" />
+            <element signature="e#22614#22745#0#PHP" expanded="false" />
+            <element signature="e#22752#23047#0#PHP" expanded="false" />
+            <element signature="e#23054#23191#0#PHP" expanded="false" />
+            <element signature="e#23198#23482#0#PHP" expanded="false" />
+            <element signature="e#23489#23623#0#PHP" expanded="false" />
+            <element signature="e#23631#24003#0#PHP" expanded="false" />
+            <element signature="e#24010#24150#0#PHP" expanded="false" />
+            <element signature="e#24157#24492#0#PHP" expanded="false" />
+            <element signature="e#31989#32229#0#PHP" expanded="false" />
+            <element signature="e#32522#32700#0#PHP" expanded="false" />
+            <element signature="n#forest_sanitize_gfont#0;n#!!block;n#forest_customize_register#0;n#!!top" expanded="false" />
+            <element signature="e#33070#33355#0#PHP" expanded="false" />
+            <element signature="e#33362#33519#0#PHP" expanded="false" />
+            <element signature="e#33526#33807#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/featured-components/featured-posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/featured-lamda.php" />
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/admin_modules/register_styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/admin_modules/theme_setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/featured-cosec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
+          <folding>
+            <element signature="e#137#303#0#PHP" expanded="false" />
+            <element signature="e#308#516#0#PHP" expanded="false" />
+            <element signature="e#520#642#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/featured-cot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1336">
+          <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+          <folding>
+            <element signature="e#162#367#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="265" column="1" lean-forward="false" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#841#0" expanded="false" />
+            <element signature="e#848#3863#0" expanded="false" />
+            <element signature="e#3877#4060#0" expanded="false" />
+            <element signature="e#4068#4906#0" expanded="false" />
+            <element signature="e#4923#5738#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/_init_blog_layouts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/orange.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/layouts/content-calender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/universal.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/green.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/featured-pi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="894">
+          <caret line="118" column="25" lean-forward="false" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/layouts/content-smiley.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-calender.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cot.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="e#52#1102#0" expanded="false" />
+            <element signature="e#1173#1256#0" expanded="false" />
+            <element signature="e#1303#1742#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/_init_featured.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/featured-components/featured-lamda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/featured-components/featured-pi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="182" column="52" lean-forward="true" selection-start-line="182" selection-start-column="52" selection-end-line="182" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/_init_sections.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/header/top-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/social/social-fa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="3843" column="22" lean-forward="false" selection-start-line="3843" selection-start-column="1" selection-end-line="3843" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/sections/social-icons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/social-icons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/customizer/_googlefonts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1367">
+          <caret line="124" column="33" lean-forward="false" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/css-mods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="77" column="85" lean-forward="true" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
