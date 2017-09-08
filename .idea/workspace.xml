@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b13c65ca-25c7-488a-9661-b3e4ad32cbac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/theme-styles/skins/default.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-calender.less" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-calender.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less" afterPath="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/css/default.css" afterPath="$PROJECT_DIR$/assets/theme-styles/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/css/orange.css" afterPath="$PROJECT_DIR$/assets/theme-styles/css/orange.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less" afterPath="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/prepros-6.config" afterPath="$PROJECT_DIR$/assets/theme-styles/prepros-6.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/sections/navigation.less" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/navigation.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme-styles/sections/universal.less" afterPath="$PROJECT_DIR$/assets/theme-styles/sections/universal.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/customizer/featured-pi.php" afterPath="$PROJECT_DIR$/framework/customizer/featured-pi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/customizer/init.php" afterPath="$PROJECT_DIR$/framework/customizer/init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/customizer/slider.php" afterPath="$PROJECT_DIR$/framework/customizer/slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/featured-components/featured-lamda.php" afterPath="$PROJECT_DIR$/framework/featured-components/featured-lamda.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/featured-components/featured-pi.php" afterPath="$PROJECT_DIR$/framework/featured-components/featured-pi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/layouts/content-smiley.php" afterPath="$PROJECT_DIR$/framework/layouts/content-smiley.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changelog.txt" afterPath="$PROJECT_DIR$/changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forest-smiley.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forest-smiley.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="99" column="3" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+            <state relative-caret-position="694">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/changelog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -106,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/framework/customizer/featured-cosec.php" />
-        <option value="$PROJECT_DIR$/framework/customizer/featured-sec.php" />
         <option value="$PROJECT_DIR$/framework/customizer/misc-scripts.php" />
         <option value="$PROJECT_DIR$/inc/customizer.php" />
         <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-cot.less" />
@@ -156,6 +162,8 @@
         <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-lamda.less" />
         <option value="$PROJECT_DIR$/assets/theme-styles/featured-components/featured-pi.less" />
         <option value="$PROJECT_DIR$/framework/layouts/content-smiley.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/changelog.txt" />
         <option value="$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less" />
       </list>
     </option>
@@ -194,22 +202,6 @@
             <path>
               <item name="forest" type="b2602c69:ProjectViewProjectNode" />
               <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="forest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="forest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="forest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forest" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -259,17 +251,18 @@
       <workItem from="1504589296894" duration="21001000" />
       <workItem from="1504670314395" duration="6838000" />
       <workItem from="1504771755539" duration="18284000" />
-      <workItem from="1504843162695" duration="3754000" />
+      <workItem from="1504843162695" duration="5913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98008000" />
+    <option name="totallyTimeSpent" value="100167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -326,20 +319,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/theme-styles/skins/orange.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/layouts/content-calender.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/header/top-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -690,8 +669,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme-styles/blog-layouts/forest-smiley.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="99" column="3" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        <state relative-caret-position="694">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>

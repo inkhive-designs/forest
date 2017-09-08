@@ -1,5 +1,13 @@
 ChangeLog
 =========
+Version 1.0.3
+
+    i) Added 2 new blog layout.
+    ii) Added 2 new featured post section.
+    iii) Added 4 new social icons.
+    iv) Added typography option for post/page and site title description.
+    v) File structure switched to new framework.
+    vi) Fixed social icons issues on using mobile screen.
 
 Version 1.0.2
 
