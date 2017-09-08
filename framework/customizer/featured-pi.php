@@ -97,7 +97,7 @@ $wp_customize->add_control(
     );
 
     $wp_customize->add_control(
-        'forest_farea1_title', array(
+        'forest_farea2_title', array(
             'setting' => 'forest_farea2_title',
             'label' => __('Title for the featured area 2', 'forest'),
             'section' => 'forest_farea2',

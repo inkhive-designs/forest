@@ -278,11 +278,14 @@
         font-weight: 300;
         z-index: 5;
         .transition(0.2s all ease);
+        &:hover{
+          background: none;
+        }
         &::before {
           position: absolute;
-          top: 50%;
+          top: 100%;
           left: 50%;
-          width: 80%;
+         // width: 80%;
           height: 30px;
           border: 2px solid @onaccent;
           border-radius: 0%;

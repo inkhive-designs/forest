@@ -1,6 +1,6 @@
 <?php if(get_theme_mod('forest_farea1_enable')):?>
     <div id="featured-pi" class="featured-section-area">
-        <div class="col-md-12">
+        <div class="col-md-12 col-sm-12">
             <?php
             if(get_theme_mod('forest_farea1_title')):?>
                 <div class="section-title">
@@ -20,7 +20,7 @@
                     <figure class="effect-ming">
                         <div>
                             <?php if (has_post_thumbnail()) : ?>
-                                <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-thumb'); ?></a>
+                                <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-pop-thumb'); ?></a>
                             <?php else : ?>
                                 <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><img src="<?php echo get_template_directory_uri()."/assets/images/placeholder2.jpg"; ?>"></a>
                             <?php endif; ?>

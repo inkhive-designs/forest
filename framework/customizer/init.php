@@ -23,6 +23,7 @@ require_once get_template_directory().'/framework/customizer/featured-sec.php';
 require_once get_template_directory().'/framework/customizer/featured-cot.php';
 require_once get_template_directory().'/framework/customizer/featured-pi.php';
 require_once get_template_directory().'/framework/customizer/_layouts.php';
+require_once get_template_directory().'/framework/customizer/slider.php';
 require_once get_template_directory().'/framework/customizer/_sanitization.php';
 require_once get_template_directory().'/framework/customizer/header.php';
 require_once get_template_directory().'/framework/customizer/_skins.php';

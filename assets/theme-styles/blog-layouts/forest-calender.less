@@ -48,7 +48,7 @@
     //height: 200px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
-    border-radius: 50%;
+    border-radius: 7%;
       border-top:none;
 
   }
@@ -61,12 +61,15 @@
     display: inline-block;
   }
 }
-@media screen and (min-width:100px) and (max-width:980px){
-  .cal-title{
+@media screen and (min-width:482px) and (max-width:767px){
+  .calender .cal-title{
     margin-bottom: 40px;
     padding-top: 20px;
     .fill-1{
       text-align: center;
+      h1{
+        font-size: 42px;
+      }
 
     }
   }
@@ -74,6 +77,17 @@
     text-align: center;
   }
   .sticky {
-    display: inline-block;
+   // display: inline-block;
+  }
+}
+@media screen and (min-width:266px) and (max-width:481px){
+  .cal-title{
+    margin-bottom: 0px;
+    .fill-1{
+      padding: 10px;
+      h1{
+        font-size: 20px;
+      }
+    }
   }
 }

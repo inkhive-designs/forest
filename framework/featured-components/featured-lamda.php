@@ -1,6 +1,6 @@
 <?php if(get_theme_mod('forest_farea2_enable')):?>
 <div id="featured-lamda" class="featured-section-area">
-    <div class="col-md-12">
+    <div class="col-md-12 col-sm-12">
         <?php
         if(get_theme_mod('forest_farea2_title')):?>
         <div class="section-title">

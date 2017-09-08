@@ -188,11 +188,32 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   padding: 0 10px;
   text-align: center;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
+  .grid{
+    text-align: center;
+  }
 .grid figure {
   display: inline-block;
   float: none;
   margin: 10px auto;
-  //width: 100%;
+ //width: 100%;
 }
+}
+@media screen and (max-width:481px){
+  #featured-lamda{
+    figure.effect-zoe p.description {
+      bottom: 3em !important;
+    }
+    .grid figure h2 {
+      font-size: 14px;
+    }
+    .grid{
+      padding-bottom: 0px !important;
+      margin: 0px !important;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+
+    }
+  }
+
 }

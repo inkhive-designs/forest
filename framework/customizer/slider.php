@@ -47,7 +47,7 @@ $wp_customize->add_control(
     'forest_main_slider_count', array(
         'settings' => 'forest_main_slider_count',
         'label'    => __( 'No. of Slides(Min:0, Max: 10)' ,'forest'),
-        'sections'  => 'forest_sec_slider_options',
+        'section'  => 'forest_sec_slider_options',
         'type'     => 'number',
         'description' => __('Save the Settings, and Reload this page to Configure the Slides.','forest'),
 
@@ -80,7 +80,7 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
             'forest_slide_img'.$i,
             array(
                 'label' => '',
-                'sections' => 'forest_slide_sec'.$i,
+                'section' => 'forest_slide_sec'.$i,
                 'settings' => 'forest_slide_img'.$i,
             )
         )
@@ -95,7 +95,7 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
         'forest_slide_title'.$i, array(
             'settings' => 'forest_slide_title'.$i,
             'label'    => __( 'Slide Title','forest' ),
-            'sections'  => 'forest_slide_sec'.$i,
+            'section'  => 'forest_slide_sec'.$i,
             'type'     => 'text',
         )
     );
@@ -109,7 +109,7 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
         'forest_slide_desc'.$i, array(
             'settings' => 'forest_slide_desc'.$i,
             'label'    => __( 'Slide Description','forest' ),
-            'sections'  => 'forest_slide_sec'.$i,
+            'section'  => 'forest_slide_sec'.$i,
             'type'     => 'text',
         )
     );
@@ -125,7 +125,7 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
         'forest_slide_CTA_button'.$i, array(
             'settings' => 'forest_slide_CTA_button'.$i,
             'label'    => __( 'Custom Call to Action Button Text(Optional)','forest' ),
-            'sections'  => 'forest_slide_sec'.$i,
+            'section'  => 'forest_slide_sec'.$i,
             'type'     => 'text',
         )
     );
@@ -139,14 +139,14 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
         'forest_slide_url'.$i, array(
             'settings' => 'forest_slide_url'.$i,
             'label'    => __( 'Target URL','forest' ),
-            'sections'  => 'forest_slide_sec'.$i,
+            'section'  => 'forest_slide_sec'.$i,
             'type'     => 'url',
         )
     );
 
 endfor;
 
-//active callback to see if the slide sections is to be displayed or not
+//active callback to see if the slide section is to be displayed or not
 function forest_show_slide_sec( $control ) {
     $option = $control->manager->get_setting('forest_main_slider_count');
     global $x;
