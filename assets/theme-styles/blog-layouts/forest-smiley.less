@@ -1,7 +1,13 @@
 .smiley{
+  text-align: center;
+  position: relative;
   //background: lighten(@content,30%);
   border-bottom: none !important;
   margin-bottom: 60px !important;
+  .featured-wrapper {
+    position: relative;
+    overflow: auto;
+  }
   .blank{
     .blank-cnt{
       transform: perspective( 600px );
@@ -17,8 +23,8 @@
   }
   .featured-thumb{
     position: relative;
-    width: 300px;
-    height: 300px;
+   // width: 300px;
+    //height: 300px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50%;
@@ -41,8 +47,10 @@
     }
   }
   .out-thumb{
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50%;
@@ -53,10 +61,13 @@
 
     .entry-header{
       text-align: center;
-      top: 40%;
       position: relative;
+      content: "";
+      width: 100%;
+      height: 100%;
       a{
         color: @background;
+        top:70px;
       }
 
     }
@@ -73,7 +84,7 @@
       border-left-color: transparent;
       border-right-color: transparent;
       border-top-color: transparent;
-      margin-left: 90px;
+     // margin-left: 90px;
     }
   }
 }
@@ -100,29 +111,25 @@
   }
 
 }
-@media screen and (max-width:369px){
-  .smiley .blank{
-    display: none;
+
+@media screen and (max-width:767px){
+  .smiley .featured-wrapper{
+    overflow: hidden;
+  }
+  .smiley .featured-thumb {
+    border: lighten(@content,30%) 14px solid;
   }
   .smiley .out-thumb {
-    width: 216px;
-    height: 216px;
+   position: relative;
+    width: 100%;
+    border: none;
+    background: none;
+    .entry-header a{
+      color: @content;
+      top: 0px;
+    }
   }
-  .smiley .featured-thumb{
-    width: 216px;
-    height: 216px;
-  }
-}
-@media screen and (min-width:370px) and (max-width:767px){
   .smiley .blank{
     display: none;
-  }
-  .smiley .out-thumb {
-    width: 303px;
-    height: 303px;
-  }
-  .smiley .featured-thumb{
-    width: 303px;
-    height: 303px;
   }
 }

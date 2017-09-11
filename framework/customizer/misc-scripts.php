@@ -20,7 +20,7 @@ $wp_customize->add_control(
         'forest_upgrade',
         array(
             'label' => __('Thank You','forest'),
-            'description' => __('Thank You for Choosing Forest Theme by Rohitink.com. Forest is a Powerful Wordpress theme which also supports WooCommerce in the best possible way. It is "as we say" the last theme you would ever need. It has all the basic and advanced features needed to run a gorgeous looking site. For any Help related to this theme, please visit  <a href="https://rohitink.com/2016/01/05/forest-multipurpose-theme/" target="_blank">Forest Help & Support</a>.','forest'),
+            'description' => __('Thank You for Choosing Forest Theme by Rohitink.com. Forest is a Powerful Wordpress theme which also supports WooCommerce in the best possible way. It is "as we say" the last theme you would ever need. It has all the basic and advanced features needed to run a gorgeous looking site. For any Help related to this theme, please visit  <a href="https://inkhive.com/contact-us/" target="_blank">Forest Help & Support</a>.','forest'),
             'section' => 'forest_sec_upgrade',
             'settings' => 'forest_upgrade',
         )
@@ -46,7 +46,7 @@ $wp_customize->add_control(
         'forest_upgrade_pro',
         array(
             'label' => __('Upgrade to Awesomness','forest'),
-            'description' => __('I am Proud to Announce the release of Pro Version of Forest after a lot of requests. I have added all the features requested by all our current users.  It has all the features like Unlimited Fonts, Unlimited Colors, Custom skins and Designer, Better Menus, More Header Layouts, Boxed Layout and so much more.  <a href="https://rohitink.com/product/forest-pro/" target="_blank">Buy Forest Pro</a>.','forest'),
+            'description' => __('I am Proud to Announce the release of Pro Version of Forest after a lot of requests. I have added all the features requested by all our current users.  It has all the features like Unlimited Fonts, Unlimited Colors, Custom skins and Designer, Better Menus, More Header Layouts, Boxed Layout and so much more.  <a href="https://inkhive.com/product/forest-pro/" target="_blank">Buy Forest Pro</a>.','forest'),
             'section' => 'forest_sec_upgrade_pro',
             'settings' => 'forest_upgrade_pro',
         )

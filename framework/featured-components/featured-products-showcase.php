@@ -1,9 +1,11 @@
 <?php if ( get_theme_mod('forest_box_enable') && is_front_page() ) : ?>
 <div id="featured-products" class="container">
 	<div class="col-md-4 col-sm-4">
+        <?php if(get_theme_mod('forest_slider_title')):?>
 	<div class="section-title title-font">
 		<?php echo esc_html( get_theme_mod('forest_slider_title',__('Featured Products','forest')) ); ?>
 	</div>
+        <?php endif; ?>
 	    <div class="fp-container">
 	        <div class="swiper-wrapper">
 	            <?php
@@ -26,7 +28,9 @@
 				        	
 				        	if ( has_post_thumbnail() ) :
 				        		$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID), 'shop_catalog' ); 
-								$image_url = $image_data[0]; 
+								$image_url = $image_data[0];
+                            else:
+                                $image_url = get_template_directory_uri()."/assets/images/placeholder2.jpg";
 							endif;		
 				        	
 							if ($image_url != '') : ?>
@@ -56,9 +60,11 @@
 	<!--col-md-4-ends-->
 	
 	<div class="col-md-8 col-sm-8">
+    <?php if(get_theme_mod('forest_box_title')):?>
 	<div class="section-title title-font">
 		<?php echo esc_html( get_theme_mod('forest_box_title','Trending') ) ?>
 	</div>
+        <?php endif;?>
 	    <div class="featured-grid-container">
 	        <div class="fg-wrapper">
 	            <?php
@@ -81,7 +87,9 @@
 				        	
 				        	if ( has_post_thumbnail() ) :
 				        		$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID), 'shop_catalog' ); 
-								$image_url = $image_data[0]; 
+								$image_url = $image_data[0];
+                            else:
+                                $image_url = get_template_directory_uri()."/assets/images/placeholder2.jpg";
 							endif;		
 				        	
 							if ($image_url != '') : ?>
