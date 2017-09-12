@@ -18,9 +18,13 @@ add_action( 'customize_register', 'forest_customize_register' );
 
 //Load All Individual Settings Based on Sections/Panels.
 require_once get_template_directory().'/framework/customizer/_googlefonts.php';
-require_once get_template_directory().'/framework/customizer/featured-cosec.php';
-require_once get_template_directory().'/framework/customizer/featured-sec.php';
-require_once get_template_directory().'/framework/customizer/featured-cot.php';
+require_once get_template_directory().'/framework/customizer/featured-showcase.php';
+require_once get_template_directory().'/framework/customizer/3d-cube-products-slider.php';
+require_once get_template_directory().'/framework/customizer/top-coverflow-products-slider.php';
+require_once get_template_directory().'/framework/customizer/fproducts-square-boxes.php';
+require_once get_template_directory().'/framework/customizer/3d-cube-posts-slider.php';
+require_once get_template_directory().'/framework/customizer/top-coverflow-posts-slider.php';
+require_once get_template_directory().'/framework/customizer/fposts-square-boxes.php';
 require_once get_template_directory().'/framework/customizer/featured-pi.php';
 require_once get_template_directory().'/framework/customizer/_layouts.php';
 require_once get_template_directory().'/framework/customizer/slider.php';

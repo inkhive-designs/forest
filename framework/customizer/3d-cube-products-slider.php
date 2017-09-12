@@ -1,6 +1,7 @@
 <?php
 //SLIDER
 function forest_customize_register_3d_cube_prd_slider( $wp_customize ) {
+    if ( class_exists('woocommerce') ) :
 $wp_customize->add_section(
     'forest_fc_slider',
     array(
@@ -63,5 +64,6 @@ $wp_customize->add_control(
         )
     )
 );
+endif;
 }
 add_action( 'customize_register', 'forest_customize_register_3d_cube_prd_slider' );

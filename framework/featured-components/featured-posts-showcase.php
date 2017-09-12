@@ -1,7 +1,7 @@
 <?php if ( get_theme_mod('forest_a_box_enable') && is_front_page() ) : ?>
 <div id="featured-posts" class="container">
-    <?php if(get_theme_mod('forest_a_slider_title')):?>
 	<div class="col-md-4 col-sm-4">
+    <?php if(get_theme_mod('forest_a_slider_title')):?>
 	<div class="section-title title-font">
 		<?php echo esc_html( get_theme_mod('forest_a_slider_title',__('Featured Posts','forest')) ); ?>
 	</div>

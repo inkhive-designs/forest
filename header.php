@@ -24,10 +24,11 @@
 		
 		<?php if (class_exists('woocommerce')) : ?>	
 		<?php get_template_part('framework/featured-components/coverflow', 'product'); ?>
-		<?php get_template_part('framework/featured-components/featured', 'products'); ?>
+		<?php get_template_part('framework/featured-components/featured-products','showcase'); ?>
 		<?php endif; ?>
 		<?php get_template_part('framework/featured-components/coverflow', 'posts'); ?>
-		<?php get_template_part('framework/featured-components/featured', 'posts'); ?>
+		<?php get_template_part('framework/featured-components/featured-posts','showcase'); ?>
+        <?php get_template_part('framework/featured-components/featured', 'showcase'); ?>
         <?php get_template_part('framework/featured-components/featured', 'pi'); ?>
         <?php get_template_part('framework/featured-components/featured', 'lamda'); ?>
 

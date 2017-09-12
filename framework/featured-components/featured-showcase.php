@@ -4,11 +4,7 @@
 */
 
 //Define all Variables.
-if ( get_theme_mod('forest_showcase_enable' ) && is_front_page() ) : 
-
-
-		
-		?>
+if ( get_theme_mod('forest_showcase_enable' ) && is_front_page() ) :?>
 		<div id="showcase">
 			<div class="container">
 				<div class="showcase-container">
@@ -25,7 +21,8 @@ if ( get_theme_mod('forest_showcase_enable' ) && is_front_page() ) :
 							?>
 							<div class="showcase-item col-md-4 col-sm-4 col-xs-12">
 				            	<a href="<?php echo $url; ?>">
-				            		<img src="<?php echo $img ?>" data-thumb="<?php echo $img ?>" title="<?php echo $title." - ".$desc ?>" />
+				            		<img src="<?php
+                                    echo $img; ?>" data-thumb="<?php echo $img ?>" title="<?php echo $title." - ".$desc ?>" />
 				            	
 				            	<div class="showcase-caption">
 					                
