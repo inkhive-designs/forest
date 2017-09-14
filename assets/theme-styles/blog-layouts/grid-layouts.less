@@ -60,11 +60,11 @@
     }
     .postedon {
       font-size: 12px;
-      color: #aaa;
-      font-weight: lighter;
+      color: lighten(@content, 15%);
+      font-weight: 300;
       margin-bottom: 5px;
       a {
-        color: #999;
+        color: lighten(@content, 10%);
         text-decoration: underline;
         &:hover {
           color: @accent;
@@ -73,8 +73,7 @@
       }
     }
     .entry-excerpt {
-
-      color: #777;
+      color: @content;
       line-height: 1.6em;
       font-weight:400;
     }

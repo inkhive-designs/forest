@@ -89,7 +89,6 @@ if ( ! function_exists( 'forest_setup' ) ) :
         add_image_size('forest-sq-thumb', 600,600, true );
         add_image_size('forest-thumb', 540,450, true );
         add_image_size('forest-pop-thumb',542, 340, true );
-        add_image_size('forest-smiley-thumb',300, 300, true );
 
 
         //Declare woocommerce support

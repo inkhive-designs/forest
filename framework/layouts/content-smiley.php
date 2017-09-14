@@ -9,7 +9,7 @@
     <div class="featured-wrapper">
     <div class="featured-thumb col-md-6 col-sm-6 col-xs-12">
         <?php if (has_post_thumbnail()) : ?>
-            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-smiley-thumb'); ?></a>
+            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-sq-thumb'); ?></a>
         <?php else: ?>
             <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><img src="<?php echo get_template_directory_uri()."/assets/images/smiley-dummy.png"; ?>"></a>
         <?php endif; ?>

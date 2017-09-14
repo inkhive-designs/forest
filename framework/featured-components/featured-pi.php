@@ -1,4 +1,4 @@
-<?php if(get_theme_mod('forest_farea1_enable')):?>
+<?php if(get_theme_mod('forest_farea1_enable') && is_front_page() || is_home() ):?>
     <div id="featured-pi" class="featured-section-area">
         <div class="col-md-12 col-sm-12">
             <?php
@@ -16,7 +16,7 @@
             foreach ( $lastposts as $post ) :
                 setup_postdata( $post ); ?>
 
-                <div class="grid col-md-4 col-sm-4">
+                <div class="pi-grid col-md-4 col-sm-4">
                     <figure class="effect-ming">
                         <div>
                             <?php if (has_post_thumbnail()) : ?>
@@ -27,13 +27,7 @@
 
                         </div>
                         <figcaption>
-                            <h2> <?php  echo the_title(); ?></h2>
-                            <p class="description">
-
-                                <?php// echo substr(get_the_excerpt(),0,40).(get_the_excerpt() ? "..." : "" ); ?>
-
-                            </p>
-                            <a href="<?php the_permalink();?>"></a>
+                            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                         </figcaption>
                     </figure>
                 </div>
