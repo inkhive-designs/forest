@@ -37,6 +37,7 @@
   .cal-title{
     margin-bottom: 40px;
     pointer-events: none;
+    padding: 10px 20px 0px 20px;
     .fill-1{
       text-align: center;
 
@@ -63,12 +64,13 @@
 }
 @media screen and (min-width:482px) and (max-width:767px){
   .calender .cal-title{
-    margin-bottom: 40px;
-    padding-top: 20px;
+    margin-bottom: 10px;
+   // padding-top: 20px;
     .fill-1{
+      padding:10px;
       text-align: center;
       h1{
-        font-size: 42px;
+        font-size: 30px;
       }
 
     }
@@ -80,14 +82,19 @@
    // display: inline-block;
   }
 }
-@media screen and (min-width:266px) and (max-width:481px){
-  .cal-title{
-    margin-bottom: 0px;
+@media screen and (max-width:481px){
+  .calender .cal-title{
+    margin-bottom: 10px;
     .fill-1{
       padding: 10px;
       h1{
         font-size: 20px;
       }
     }
+  }
+}
+@media screen and (max-width:481px){
+  .calender .out-thumb{
+    margin-top: 0px;
   }
 }

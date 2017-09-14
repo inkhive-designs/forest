@@ -29,7 +29,7 @@
         </div>
         <div class="col-md-12 col-sm-12 cal-excerpt">
             <div class="col-md-1 blank-3.1"></div>
-            <div class="out-thumb col-md-10 col-sm-10">
+            <div class="out-thumb col-md-10 col-sm-12 xs-12">
                 <header class="entry-header">
 
                     <span class="entry-excerpt"><?php echo get_the_excerpt(); ?></span>
