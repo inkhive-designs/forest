@@ -1,4 +1,4 @@
-<?php if(get_theme_mod('forest_farea1_enable') && is_front_page() || is_home() ):?>
+<?php if(get_theme_mod('forest_farea1_enable') && is_front_page()):?>
     <div id="featured-pi" class="featured-section-area">
         <div class="col-md-12 col-sm-12">
             <?php
