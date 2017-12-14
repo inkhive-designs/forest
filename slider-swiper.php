@@ -29,11 +29,11 @@ if ( get_theme_mod('forest_main_slider_enable' ) && is_front_page() ) :
 				            		<img src="<?php echo $img ?>" data-thumb="<?php echo $img ?>" title="<?php echo $title." - ".$desc ?>" />
 				            	</a>
 				            	<div class="slidecaption">
-					                
-					                <?php if ($title) : ?>
-						                <div class="slide-title"><?php echo $title ?></div>
-						                <div class="slide-desc"><span><?php echo $desc ?></span></div>
-						            <?php endif; ?> 
+
+                                    <a href="<?php echo $url ?>">
+                                        <?php if ($title != "") { ?><div class="slide-title"><?php echo $title ?></div><?php } ?>
+                                        <?php if ($desc != "") { ?><div class="slide-desc"><span><?php echo $desc ?></span></div><?php } ?>
+                                    </a>
 								</div>
 				            </div>
 			             <?php endfor; ?>

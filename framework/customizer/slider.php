@@ -3,7 +3,7 @@
 // SLIDER PANEL
 function forest_customize_register_slider( $wp_customize ) {
 $wp_customize->add_panel( 'forest_slider_panel', array(
-    'priority'       => 35,
+    'priority'       => 36,
     'capability'     => 'edit_theme_options',
     'theme_supports' => '',
     'title'          => __('Main Slider','forest'),
@@ -109,22 +109,6 @@ for ( $i = 1 ; $i <= 10 ; $i++ ) :
         'forest_slide_desc'.$i, array(
             'settings' => 'forest_slide_desc'.$i,
             'label'    => __( 'Slide Description','forest' ),
-            'section'  => 'forest_slide_sec'.$i,
-            'type'     => 'text',
-        )
-    );
-
-
-
-    $wp_customize->add_setting(
-        'forest_slide_CTA_button'.$i,
-        array( 'sanitize_callback' => 'sanitize_text_field' )
-    );
-
-    $wp_customize->add_control(
-        'forest_slide_CTA_button'.$i, array(
-            'settings' => 'forest_slide_CTA_button'.$i,
-            'label'    => __( 'Custom Call to Action Button Text(Optional)','forest' ),
             'section'  => 'forest_slide_sec'.$i,
             'type'     => 'text',
         )

@@ -1,15 +1,6 @@
 <?php
 function forest_customize_register_fprd_square_boxes( $wp_customize ) {
 if ( class_exists('woocommerce') ) :
-    // CREATE THE fcp PANEL
-    $wp_customize->add_panel( 'forest_fcp_panel', array(
-        'priority'       => 40,
-        'capability'     => 'edit_theme_options',
-        'theme_supports' => '',
-        'title'          => 'Featured Product Showcase',
-        'description'    => '',
-    ) );
-
 
     //SQUARE BOXES
     $wp_customize->add_section(
@@ -17,7 +8,7 @@ if ( class_exists('woocommerce') ) :
         array(
             'title'     => __('Square Boxes','forest'),
             'priority'  => 10,
-            'panel'     => 'forest_fcp_panel'
+            'panel'     => 'forest_featured_product_areas'
         )
     );
 

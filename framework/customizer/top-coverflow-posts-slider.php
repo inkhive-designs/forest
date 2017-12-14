@@ -6,7 +6,7 @@ $wp_customize->add_section(
     array(
         'title' => __('Top CoverFlow Slider', 'forest'),
         'priority' => 5,
-        'panel' => 'forest_a_fcp_panel'
+        'panel' => 'forest_featured_post_areas'
     )
 );
 

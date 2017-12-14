@@ -26,6 +26,7 @@ require_once get_template_directory().'/framework/customizer/3d-cube-posts-slide
 require_once get_template_directory().'/framework/customizer/top-coverflow-posts-slider.php';
 require_once get_template_directory().'/framework/customizer/fposts-square-boxes.php';
 require_once get_template_directory().'/framework/customizer/featured-pi.php';
+require_once get_template_directory().'/framework/customizer/featured-areas.php';
 require_once get_template_directory().'/framework/customizer/_layouts.php';
 require_once get_template_directory().'/framework/customizer/slider.php';
 require_once get_template_directory().'/framework/customizer/_sanitization.php';

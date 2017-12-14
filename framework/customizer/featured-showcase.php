@@ -2,7 +2,7 @@
 //CUSTOM SHOWCASE
 function forest_customize_register_showcase($wp_customize ) {
 $wp_customize->add_panel( 'forest_showcase_panel', array(
-    'priority'       => 35,
+    'priority'       => 36,
     'capability'     => 'edit_theme_options',
     'theme_supports' => '',
     'title'          => __('Custom Showcase','forest'),

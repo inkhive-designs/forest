@@ -1,14 +1,6 @@
 <?php
 // CREATE THE fcp PANEL
 function forest_customize_register_fposts_square_boxes( $wp_customize ) {
-$wp_customize->add_panel('forest_a_fcp_panel', array(
-    'priority' => 40,
-    'capability' => 'edit_theme_options',
-    'theme_supports' => '',
-    'title' => __('Featured Posts Showcase', 'forest'),
-    'description' => '',
-));
-
 
 //SQUARE BOXES
 $wp_customize->add_section(
@@ -16,7 +8,7 @@ $wp_customize->add_section(
     array(
         'title' => __('Square Boxes', 'forest'),
         'priority' => 10,
-        'panel' => 'forest_a_fcp_panel'
+        'panel' => 'forest_featured_post_areas'
     )
 );
 

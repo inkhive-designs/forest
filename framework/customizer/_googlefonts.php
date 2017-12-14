@@ -6,7 +6,8 @@ function forest_customize_register_fonts( $wp_customize ) {
         array(
             'title'     => __('Google Web Fonts','forest'),
             'priority'  => 41,
-            'description' => __('Defaults: Lato.','forest')
+            'description' => __('Defaults: Lato.','forest'),
+            'panel'     => 'forest_design_panel',
         )
     );
 

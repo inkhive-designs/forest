@@ -5,7 +5,7 @@ $wp_customize->add_section(
     'forest_sec_upgrade',
     array(
         'title'     => __('Forest Theme - Help & Support','forest'),
-        'priority'  => 45,
+        'priority'  => 1,
     )
 );
 
@@ -31,7 +31,7 @@ $wp_customize->add_section(
     'forest_sec_upgrade_pro',
     array(
         'title'     => __('Discover FOREST PRO','forest'),
-        'priority'  => 44,
+        'priority'  => 2,
     )
 );
 

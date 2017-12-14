@@ -4,6 +4,7 @@ function forest_customize_register_social( $wp_customize ) {
 $wp_customize->add_section('forest_social_section', array(
     'title' => __('Social Icons','forest'),
     'priority' => 44 ,
+    'panel' => 'forest_header_panel'
 ));
 
 $social_networks = array( //Redefinied in Sanitization Function.

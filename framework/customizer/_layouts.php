@@ -1,6 +1,7 @@
 <?php
 // Layout and Design
 function forest_customize_register_layouts( $wp_customize ) {
+
 $wp_customize->add_panel( 'forest_design_panel', array(
     'priority'       => 40,
     'capability'     => 'edit_theme_options',

@@ -2,21 +2,14 @@
 //featured area 1 start
 function forest_customize_register_fp_area( $wp_customize )
 {
-// CREATE THE fcp PANEL
-    $wp_customize->add_panel('forest_farea_panel', array(
-        'priority' => 40,
-        'capability' => 'edit_theme_options',
-        'theme_supports' => '',
-        'title' => __('Featured Posts Area', 'forest'),
-        'description' => '',
-    ));
+
 //farea 1 start
 $wp_customize->add_section(
     'forest_farea1',
     array(
         'title' => __('Featured Posts Area 1', 'forest'),
         'priority' => 10,
-        'panel' => 'forest_farea_panel'
+        'panel' => 'forest_featured_post_areas'
     )
 );
 
@@ -72,7 +65,7 @@ $wp_customize->add_control(
         array(
             'title' => __('Featured Posts Area 2 ', 'forest'),
             'priority' => 10,
-            'panel' => 'forest_farea_panel'
+            'panel' => 'forest_featured_post_areas'
         )
     );
 
