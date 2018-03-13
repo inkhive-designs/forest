@@ -40,6 +40,7 @@ for ( $i = 1 ; $i <= 3 ; $i++ ) :
         array(
             'title'     => __('ShowCase ','forest').$i,
             'priority'  => $i,
+            'description' => __('For better performance. Use Image size 380x320 px','forest'),
             'panel'     => 'forest_showcase_panel',
 
         )
@@ -86,7 +87,7 @@ for ( $i = 1 ; $i <= 3 ; $i++ ) :
             'settings' => 'forest_showcase_desc'.$i,
             'label'    => __( 'Showcase Description','forest' ),
             'section'  => 'forest_showcase_sec'.$i,
-            'type'     => 'text',
+            'type'     => 'textarea',
         )
     );
 

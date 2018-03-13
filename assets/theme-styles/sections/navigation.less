@@ -9,7 +9,7 @@
     @media (min-width: 1200px) { max-width: 650px; }
     @media (min-width: 992px) and (max-width: 1199px) { max-width: 450px; }
     @media (max-width: 991px) { width: 100%; }
-    @media (max-width: 600px) { display:none; }
+    @media (max-width: 767px) { display:none; }
   }
   ul {
     li {
@@ -192,7 +192,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .slicknav_menu {
     display: block;
     .slicknav_menutxt {
@@ -251,11 +251,17 @@
 /* TOP MENU */
 #top-menu {
   float: right;
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 767px) {
+    ul#menu-top-menu {
+      display: none !important;
+    }
+  }
+
+    @media screen and (max-width: 991px) {
     float: none;
   }
   padding-right: 15px;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 767px) {
     float: none;
     text-align: center;
     padding: 15px;

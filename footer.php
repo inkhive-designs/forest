@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<?php printf( __( 'Designed by %1$s.', 'forest' ), '<a href="'.esc_url("https://inkhive.com/").'" rel="nofollow">Inkhive</a>' ); ?>
+			<?php printf( __( 'Designed by %1$s.', 'forest' ), '<a target="blank" href="'.esc_url("https://inkhive.com/").'" rel="nofollow">Inkhive</a>' ); ?>
 			<span class="sep"></span>
 			<?php echo ( get_theme_mod('forest_footer_text') == '' ) ? ('&copy; '.date('Y').' '.get_bloginfo('name').__('. All Rights Reserved. ','forest')) : esc_html( get_theme_mod('forest_footer_text') ); ?>
 		</div><!-- .site-info -->

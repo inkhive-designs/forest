@@ -176,3 +176,13 @@ Source: https://pixabay.com/en/service/terms/#usage
  * Slider Description Bug Fixed
  * Featured Added & Area Bug Fixed
  * Minor Bug Fixes
+ 
+ ### Version 1.0.6
+ 
+  * 3D Cube slider and boxes bug fixed.
+  * Featured Area 1 and Featured Area 2 Bug fixed.
+  * Featured Showcase Area bug fixed.
+  * Mobile menu fug fixed.
+  * Blog layout minor bug fixed.
+  * Minor bug fixed.
+  

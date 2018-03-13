@@ -21,7 +21,7 @@
                     <div class="top-cart-icon">
 
 
-                        <a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'forest'); ?>">
+                        <a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php esc_html_e('View your shopping cart', 'forest'); ?>">
                             <div class="count"><?php echo sprintf(_n('%d item', '%d items', WC()->cart->cart_contents_count, 'forest'), WC()->cart->cart_contents_count);?></div>
                             <div class="total"> <?php echo WC()->cart->get_cart_total(); ?>
                             </div>
@@ -33,10 +33,10 @@
 
                 <div id="userlinks">
                     <?php if ( is_user_logged_in() ) { ?>
-                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','forest'); ?>"><?php _e('My Account','forest'); ?></a>
+                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php esc_html_e('My Account','forest'); ?>"><?php esc_html_e('My Account','forest'); ?></a>
                     <?php }
                     else { ?>
-                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login / Register','forest'); ?>"><?php _e('Login / Register','forest'); ?></a>
+                        <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php esc_html_e('Login / Register','forest'); ?>"><?php esc_html_e('Login / Register','forest'); ?></a>
                     <?php } ?>
                 </div>
 

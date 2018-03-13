@@ -18,7 +18,7 @@ function forest_paging_nav() {
 	}
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'forest' ); ?></h1>
+		<h1 class="screen-reader-text"><?php esc_html_e( 'Posts navigation', 'forest' ); ?></h1>
 		<div class="nav-links">
 
 			<?php if ( get_next_posts_link() ) : ?>
@@ -49,7 +49,7 @@ function forest_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'forest' ); ?></h1>
+		<h1 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'forest' ); ?></h1>
 		<div class="nav-links">
 			<?php
 				previous_post_link( '<div class="nav-previous">%link</div>', _x( '<span class="meta-nav">&larr;</span>&nbsp;%title', 'Previous post link', 'forest' ) );
@@ -200,7 +200,7 @@ function forest_comment( $comment, $args, $depth ) {
 
 	<li id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 		<div class="comment-body">
-			<?php _e( 'Pingback:', 'forest' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'forest' ), '<span class="edit-link">', '</span>' ); ?>
+			<?php esc_html_e( 'Pingback:', 'forest' ); ?> <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'forest' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
 
 	<?php else : ?>
@@ -221,7 +221,7 @@ function forest_comment( $comment, $args, $depth ) {
 				</div><!-- .comment-metadata -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>
-				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'forest' ); ?></p>
+				<p class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'forest' ); ?></p>
 				<?php endif; ?>
 			</footer><!-- .comment-meta -->
 

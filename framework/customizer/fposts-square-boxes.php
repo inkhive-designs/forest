@@ -7,7 +7,7 @@ $wp_customize->add_section(
     'forest_a_fc_boxes',
     array(
         'title' => __('Square Boxes', 'forest'),
-        'priority' => 10,
+        'priority' => 2,
         'panel' => 'forest_featured_post_areas'
     )
 );

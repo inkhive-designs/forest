@@ -22,7 +22,7 @@
   .out-thumb {
     background: darken(@background,3%);
     padding: 0px;
-    h1 {
+    h3 {
       padding: 5px 8px;
       margin-top: 0;
       background: @accent;
@@ -38,8 +38,10 @@
       padding-bottom: 8px;
     }
   }
-  &:hover {
-    .transform(scale(1.06));
+  @media screen and (min-width:767px) {
+    &:hover {
+      .transform(scale(1.06));
+    }
   }
 }
 .anim {
@@ -84,8 +86,10 @@
       transform-origin: top;
       -webkit-transform-origin: top;
     }
-    &:hover p {
-      -webkit-animation: showex 1s 0.5s forwards linear;
+    @media screen and (min-width: 767px) {
+      &:hover p {
+        -webkit-animation: showex 1s 0.5s forwards linear;
+      }
     }
     img {
       max-width: none;
@@ -137,6 +141,7 @@
       transform: translate3d(20px,20px,0);
       -webkit-transform: translate3d(20px,20px,0);
     }
+    @media screen and (min-width: 767px){
     &:hover { /* .featured-thumb */
 
       img {
@@ -162,6 +167,7 @@
         animation-fill-mode: forwards;
       }
 
+    }
     }
   }
 }
@@ -210,7 +216,7 @@
   }
   .out-thumb {
     padding: 15px;
-    h1.entry-title {
+    h3.entry-title {
       font-size: 20px;
       a {.transition(0.2s all ease);}
       a:hover {

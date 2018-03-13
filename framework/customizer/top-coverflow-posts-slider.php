@@ -5,7 +5,7 @@ $wp_customize->add_section(
     'forest_a_fc_coverflow',
     array(
         'title' => __('Top CoverFlow Slider', 'forest'),
-        'priority' => 5,
+        'priority' => 1,
         'panel' => 'forest_featured_post_areas'
     )
 );

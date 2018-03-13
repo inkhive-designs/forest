@@ -7,7 +7,7 @@ if ( class_exists('woocommerce') ) :
         'forest_fc_boxes',
         array(
             'title'     => __('Square Boxes','forest'),
-            'priority'  => 10,
+            'priority'  => 2,
             'panel'     => 'forest_featured_product_areas'
         )
     );

@@ -260,7 +260,7 @@ add_action('forest_blog_layout', 'forest_get_blog_layout');
 */
 function forest_get_main_class(){
 	
-	$layout = get_theme_mod('forest_blog_layout');
+	$layout = esc_html(get_theme_mod('forest_blog_layout'));
 	if (strpos($layout,'forest') !== false) {
 	    	echo 'forest-main';
 	}		

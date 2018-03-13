@@ -7,18 +7,32 @@
     @media screen and (max-width: 600px) {
       width: 100%;
     }
-    img {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 20px;
+    }
+      img {
       -webkit-filter: brightness(0.9);
       filter: brightness(0.9);
       z-index: 80;
       position: relative;
-      .transition(0.4s all ease;)
-    }
+      .transition(0.4s all ease;);
+      @media screen and (max-width: 767px){
+        width: 100%;
+        transition: none;
+        transform: none;
+      }
+      @media screen and (max-width: 767px) and (max-width: 991px) {
+        width: 100%;
+      }
+      }
     .showcase-caption {
       position: absolute;
       top: 50%;
       text-align: center;
       .transform(translateY(-50%));
+      @media screen and (max-width: 767px){
+        transform: none;
+      }
       font-weight: bold;
       width: 100%;
       color: white;
@@ -26,7 +40,7 @@
       height: 100%;
       .transition(0.4s all ease);
       .showcase-title {
-        font-size: 28px;
+        font-size: 18px;
         text-transform: uppercase;
         margin-top: 18%;
         .transition(0.4s all ease);
@@ -36,6 +50,7 @@
       }
       .showcase-desc {
         font-size: 16px;
+        padding: 0px 20px;
         @media screen and (max-width: 600px) {
           font-size: 12px;
           font-weight: normal;
@@ -44,19 +59,24 @@
       }
     }
     &:nth-of-type(2){
-      .transform(scale(1.06));
-      z-index: 90;
+      @media screen and (min-width: 767px) {
+        .transform(scale(1.06));
+        z-index: 90;
+      }
+      transform: none;
     }
-    &:hover {
-      img {
-        .transform(scale(1.15));
-      }
-      .showcase-caption {
-        background: fade(@accent,50%);
-        z-index: 80;
-      }
-      .showcase-title, .showcase-desc {
-        .transform(scale(1.1));
+    @media screen and (min-width: 767px) {
+      &:hover {
+        img {
+          .transform(scale(1.15));
+        }
+        .showcase-caption {
+          background: fade(@accent, 50%);
+          z-index: 80;
+        }
+        .showcase-title, .showcase-desc {
+          .transform(scale(1.1));
+        }
       }
     }
   }
@@ -84,17 +104,19 @@
           width: 100%;
         }
       }
-      &:hover {
-        img {
-          .transform( translateX(0px) );
-          opacity: 1;
-        }
-        .titledesc {
-          display: block;
-          .transform( translateX(0px) );
-          /* left: 0; */
-          opacity: 1;
+      @media screen and (min-width: 767px) {
+        &:hover {
+          img {
+            .transform(translateX(0px));
+            opacity: 1;
+          }
+          .titledesc {
+            display: block;
+            .transform(translateX(0px));
+            /* left: 0; */
+            opacity: 1;
 
+          }
         }
       }
     }

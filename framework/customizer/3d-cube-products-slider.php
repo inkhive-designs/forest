@@ -6,7 +6,7 @@ $wp_customize->add_section(
     'forest_fc_slider',
     array(
         'title'     => __('3D Cube Products Slider','forest'),
-        'priority'  => 10,
+        'priority'  => 3,
         'panel'     => 'forest_featured_product_areas',
         'description' => 'This is the Posts Slider, displayed left to the square boxes.',
     )

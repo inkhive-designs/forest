@@ -7,8 +7,8 @@
 if ( get_theme_mod('forest_showcase_enable' ) && is_front_page() ) :?>
 		<div id="showcase">
 			<div class="container">
-				<div class="showcase-container">
-			            <div class="swiper-wrapper">
+				<div class="showcase-container col-md-12 col-sm-12">
+			            <div class="pswiper-wrapper">
 			            <?php
 			            for ( $i = 1; $i <= 3; $i++ ) :
 	

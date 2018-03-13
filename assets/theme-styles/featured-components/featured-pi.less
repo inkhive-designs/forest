@@ -10,11 +10,11 @@
 .pi-grid figure {
   border-bottom:none;
   position: relative;
-  float: left;
+  float: none;
   overflow: hidden;
   margin: 10px 1%;
   // min-width: 320px;
-  background: #3085a3;
+  background: black;
   text-align: center;
   cursor: pointer;
 }
@@ -24,6 +24,8 @@
   position: relative;
   display: block;
   opacity: 0.8;
+  width: 100%;
+  background: fade(black,40%);
 }
 
 .pi-grid figure figcaption {
@@ -59,9 +61,9 @@
   opacity: 0;
 }
 
-.pi-grid figure h2 {
+.pi-grid figure h3 {
   font-weight: 300;
-  font-size: 26px;
+  font-size: 22px;
   top: 50%;
     position: relative;
     transform: translateY(-50%);
@@ -72,7 +74,7 @@
 }
 
 
-.pi-grid figure h2,
+.pi-grid figure h3,
 .pi-grid figure p {
   margin: 0;
 }
@@ -82,7 +84,7 @@
 /*---------------*/
 
 figure.effect-ming {
-  background: #030c17;
+  background: #000000;
 }
 
 figure.effect-ming img {
@@ -92,6 +94,9 @@ figure.effect-ming img {
 }
 
 figure.effect-ming figcaption::before {
+  @media screen  and (max-width: 767px){
+    display: none;
+  }
   position: absolute;
   top: 30px;
   right: 30px;
@@ -100,7 +105,10 @@ figure.effect-ming figcaption::before {
   border: 2px solid #fff;
   box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
   content: '';
-  opacity: 0;
+  opacity: 1;
+  @media screen and (min-width: 767px) {
+    opacity: 0;
+  }
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale3d(1.4,1.4,1);
@@ -124,7 +132,7 @@ figure.effect-ming:hover img {
 
 @media screen and (max-width:481px){
 #featured-pi{
-  .pi-grid figure h2 {
+  .pi-grid figure h3 {
     font-size: 14px;
   }
   .pi-grid{
@@ -140,7 +148,7 @@ figure.effect-ming:hover img {
 }
 @media screen and (max-width:767px){
   #featured-pi{
-    .pi-grid figure h2 {
+    .pi-grid figure h3 {
       font-size: 18px;
     }
     .pi-grid{
@@ -159,15 +167,15 @@ figure.effect-ming:hover img {
   }
 }
 @media screen and (min-width:767px) and (max-width:1130px){
-  .pi-grid figure h2 {
-    font-size: 16px;
+  .pi-grid figure h3 {
+    font-size: 14px;
   }
 }
 
 
-@media screen and (min-width:982px) and (max-width:1024px){
-  .pi-grid figure h2 {
-    font-size: 24px;
+@media screen and (min-width:982px) and (max-width:1200px){
+  .pi-grid figure h3 {
+    font-size: 14px;
   }
 }
 

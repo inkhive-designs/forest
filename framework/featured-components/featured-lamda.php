@@ -1,10 +1,10 @@
 <?php if(get_theme_mod('forest_farea2_enable') && is_front_page()):?>
-<div id="featured-lamda" class="featured-section-area">
+<div id="featured-lamda" class="featured-section-area container">
     <div class="col-md-12 col-sm-12">
 	    
         <?php if(get_theme_mod('forest_farea2_title')):?>
 	        <div class="section-title">
-	            <?php echo get_theme_mod('forest_farea2_title'); ?>
+	            <?php echo esc_html(get_theme_mod('forest_farea2_title')); ?>
 	        </div>
         <?php endif;?>
         
@@ -19,16 +19,16 @@
             <div class="lamda-wrapper col-md-4 col-sm-4">
                     <div class="featured-thumb">
                         <?php if (has_post_thumbnail()) : ?>
-                            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-thumb'); ?></a>
+                            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><?php the_post_thumbnail('forest-thumb',array(  'alt' => trim(strip_tags( $post->post_title )))); ?></a>
                         <?php else : ?>
-                            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><img src="<?php echo get_template_directory_uri()."/assets/images/placeholder2.jpg"; ?>"></a>
+                            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>"><img alt="<?php the_title() ?>" src="<?php echo get_template_directory_uri()."/assets/images/placeholder2.jpg"; ?>"></a>
                         <?php endif; ?>
                         
                         <p class="description">
                         	<?php echo substr(get_the_excerpt(),0,120).(get_the_excerpt() ? "..." : "" ); ?>
                         </p>
                         
-                        <h2><?php the_title(); ?></h2>
+                        <h3><?php the_title(); ?></h3>
                         
                     </div>
                     

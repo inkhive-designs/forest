@@ -30,7 +30,7 @@
 				        		$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID), 'shop_catalog' ); 
 								$image_url = $image_data[0];
                             else:
-                                $image_url = get_template_directory_uri()."/assets/images/placeholder2.jpg";
+                                $image_url = get_template_directory_uri()."/assets/images/600x600.png";
 							endif;		
 				        	
 							if ($image_url != '') : ?>
@@ -89,7 +89,7 @@
 				        		$image_data = wp_get_attachment_image_src( get_post_thumbnail_id( $loop->post->ID), 'shop_catalog' ); 
 								$image_url = $image_data[0];
                             else:
-                                $image_url = get_template_directory_uri()."/assets/images/placeholder2.jpg";
+                                $image_url = get_template_directory_uri()."/assets/images/600x600.png";
 							endif;		
 				        	
 							if ($image_url != '') : ?>
