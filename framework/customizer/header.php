@@ -13,32 +13,6 @@ function forest_customize_register_header_settings( $wp_customize ) {
         'panel'     => 'forest_header_panel'
     ) );
 
-    $wp_customize->add_setting( 'forest_logo_resize' , array(
-        'default'     => 100,
-        'sanitize_callback' => 'forest_sanitize_positive_number',
-    ) );
-    $wp_customize->add_control(
-        'forest_logo_resize',
-        array(
-            'label' => __('Resize & Adjust Logo','forest'),
-            'section' => 'title_tagline',
-            'settings' => 'forest_logo_resize',
-            'priority' => 6,
-            'type' => 'range',
-            'active_callback' => 'forest_logo_enabled',
-            'input_attrs' => array(
-                'min'   => 30,
-                'max'   => 200,
-                'step'  => 5,
-            ),
-        )
-    );
-
-    function forest_logo_enabled($control) {
-        $option = $control->manager->get_setting('custom_logo');
-        return $option->value() == true;
-    }
-
     //Settings For Logo Area
     $wp_customize->add_setting(
         'forest_hide_title_tagline',

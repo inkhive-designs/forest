@@ -12,13 +12,7 @@ function forest_custom_css_mods() {
 	if ( !has_nav_menu('primary') || get_theme_mod('forest_disable_nav_desc') ) :
 		echo "#site-navigation ul li a { padding: 16px 12px; }";
 	endif;
-	
-	
-	//Exception: IMage transform origin should be left on Left Alignment, i.e. Default
-	if ( !get_theme_mod('forest_center_logo') ) :
-		echo "#masthead #site-logo img { transform-origin: left; }";
-	endif;	
-	
+
 	if ( get_theme_mod('forest_title_font') ) :
 		echo ".title-font, h1, h2, .sections-title, .woocommerce ul.products li.product h3 { font-family: ".esc_html( get_theme_mod('forest_title_font','Lato') )."; }";
 	endif;

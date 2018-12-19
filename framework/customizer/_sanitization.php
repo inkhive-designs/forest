@@ -28,3 +28,7 @@ function forest_sanitize_product_category( $input ) {
     else
         return '';
 }
+
+function forest_sanitize_text( $input ) {
+    return wp_kses_post( force_balance_tags( $input ) );
+}
